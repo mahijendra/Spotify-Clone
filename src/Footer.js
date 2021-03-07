@@ -50,7 +50,7 @@ function Footer({ spotify }) {
     spotify.skipToNext();
     spotify.getMyCurrentPlayingTrack().then((r) => {
       dispatch({
-        type: "SET_ITEM",
+        type: "SET_ITEM", 
         item: r.item,
       });
       dispatch({
