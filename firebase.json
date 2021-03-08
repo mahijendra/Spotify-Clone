@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/{spotify-clone}",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
