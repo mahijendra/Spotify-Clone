@@ -15,6 +15,7 @@ function Header({ spotify }) {
       <div className="header__left">
         <SearchIcon />
         <input
+            className="search-bar"
           placeholder="Search for Artists, Songs, or Podcasts "
           type="text"
         />
